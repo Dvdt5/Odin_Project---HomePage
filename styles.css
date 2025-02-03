@@ -1,0 +1,43 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+
+/* About Section */
+
+#about {
+    width: 100vw;
+    padding: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+#about div {
+    width: 20vw;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#about-picture img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#about-text {
+    background-color: white;
+}
+/* About End */
+
+
+#triangle-top{
+    z-index: -1;
+    position: absolute;
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-top: 50vh solid rgb(0, 102, 255);
+    border-right: 150vw solid transparent;
+}
