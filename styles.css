@@ -42,13 +42,62 @@ body {
 
     padding: 16px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 #about-text p {
-    font-size: 26px;
+    font-size: 36px;
 }
 
 /* About End */
+
+/* Services Section */
+
+#services {
+    position: relative;
+    width: 100vw;
+    padding: 10vh 0;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3vw;
+    justify-content: center;
+}
+
+#services-header {
+    position: absolute;
+    left: 45vw;
+}
+
+.service-card {
+    width: 25vw;
+    min-height: 300px;
+    background-color: gray;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.service-card-header {
+    box-sizing: border-box;
+    border-bottom: 4px solid gray;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    padding: 4px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.service-card-content {
+    padding: 0 16px;
+    font-size: 22px;
+}
+
+/* Services End */
 
 
 #triangle-top{
