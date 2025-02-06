@@ -66,11 +66,13 @@ body {
 
 #services-header {
     position: absolute;
-    left: 45vw;
+    text-align: center;
+    width: 100%;
 }
 
 .service-card {
-    width: 25vw;
+    min-width: 400px;
+    max-width: 25vw;
     min-height: 300px;
     background-color: gray;
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
@@ -87,7 +89,7 @@ body {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-align: center;
-    color: blue;
+    color: rgb(61, 58, 58);
     font-weight: bold;
     font-size: 26px;
 }
@@ -99,6 +101,60 @@ body {
 
 /* Services End */
 
+
+/* My Work Section */
+
+#my-work {
+    position: relative;
+    width: 100vw;
+    padding: 10vh 0;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3vw;
+    justify-content: center;
+}
+
+#my-work-header {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.my-work-card {
+    width: 25vw;
+    min-width: 350px;
+    
+
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.my-work-img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.my-work-header {
+    text-align: center;
+    font-size: 26px;
+    box-sizing: border-box;
+    border-bottom: 4px solid gray;
+}
+
+.my-work-header p {
+    color: rgb(61, 58, 58);
+    font-size: 26px;
+    padding: 8px;
+    margin: 0;
+}
+
+.my-work-description {
+    padding: 8px;
+}
+
+/* My Work End */
 
 #triangle-top{
     z-index: -1;
