@@ -156,6 +156,45 @@ body {
 
 /* My Work End */
 
+/* Contact Section */
+
+#contact {
+    background-color: rgb(0, 102, 255);
+    padding: 10vh 0;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+#contact-text {
+    width: 25vw;
+    padding: 16px;
+    font-size: 20px;
+
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px 0 0 10px;
+}
+
+#contact-text {
+    word-wrap: normal;
+}
+
+#contact-img {
+    width: 35vw;
+}
+
+#contact-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Contact End */
+
 #triangle-top{
     z-index: -1;
     position: absolute;
