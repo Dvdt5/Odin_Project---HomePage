@@ -115,6 +115,10 @@ body {
     justify-content: center;
 }
 
+#my-work a {
+    text-decoration: none;
+}
+
 #my-work-header {
     position: absolute;
     text-align: center;
