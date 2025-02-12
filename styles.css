@@ -218,3 +218,38 @@ body {
     background-color: rebeccapurple;
     color: white;
 }
+
+
+
+@media (min-width: 800px) and (max-width: 1200px) {
+    #about-text p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 800px) {
+    #about {
+        display: grid;
+        grid-template-rows: 2;
+        justify-content: center;
+        
+        
+    }
+    #about-picture {
+        width: 45vw;
+        border-radius: 10px;
+    }
+    
+    #about-picture img{
+        width: 45vw;
+        border-radius: 10px;
+    }
+    #about-text {
+        background-color: rgb(253, 253, 255);
+        width: 75vw;
+        border-radius: 10px;
+    }
+    #about-text p {
+        font-size: 20px;
+    }
+}
