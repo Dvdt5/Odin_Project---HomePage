@@ -60,7 +60,7 @@ body {
 
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 3vw;
+    gap: 2vw;
     justify-content: center;
 }
 
@@ -225,6 +225,10 @@ body {
     #about-text p {
         font-size: 24px;
     }
+
+    #services {
+        grid-template-columns: auto auto;
+    }
 }
 
 @media (max-width: 800px) {
@@ -251,5 +255,9 @@ body {
     }
     #about-text p {
         font-size: 20px;
+    }
+
+    #services {
+        grid-template-columns: auto;
     }
 }
