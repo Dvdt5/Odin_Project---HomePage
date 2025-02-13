@@ -229,6 +229,15 @@ body {
     #services {
         grid-template-columns: auto auto;
     }
+
+    #my-work {
+        grid-template-columns: auto auto;
+    }
+
+    #contact-text {
+        font-size: 20px;
+        width: 40vw;
+    }
 }
 
 @media (max-width: 800px) {
@@ -259,5 +268,20 @@ body {
 
     #services {
         grid-template-columns: auto;
+    }
+    #my-work {
+        grid-template-columns: auto;
+    }
+
+    #contact {
+        grid-template-columns: auto;
+    }
+    #contact-text {
+        font-size: 20px;
+        width: 60vw;
+        border-radius: 10px;
+    }
+    #contact-img {
+        display: none;
     }
 }
